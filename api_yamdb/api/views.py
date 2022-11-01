@@ -42,6 +42,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
             score = a.score
             sum_score += score
         rating = sum_score / count
+        
         return rating
 
     def get_queryset(self):
