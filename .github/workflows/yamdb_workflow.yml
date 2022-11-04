@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: bogdanodilov/yamdb_final:latest
+          tags: bogdanodilov/infra:latest
           file: api_yamdb/Dockerfile
   
   deploy:
